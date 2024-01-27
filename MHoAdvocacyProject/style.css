@@ -1,0 +1,68 @@
+html {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+p {
+  color: cornflowerblue;
+}
+h2 {
+  background-color: cadetblue;
+}
+h3 {
+  font-size: 15px;
+}
+
+a:link {
+    text-decoration: none; /* Remove underline from links */
+    color: #0077cc; /* Set the link text color */
+    font-weight: bold; /* Make the link text bold if desired */
+}
+a:visited {
+    color: #990099; /* Set the visited link text color */
+}
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #ff6600; /* Set the link text color on hover */
+}
+a:active {
+    color: #ff0000; /* Set the link text color in the active state (when clicked) */
+}
+
+.header {
+  padding-top:5ex;
+  margin-bottom:5cm;
+  text-align:left;
+}
+#header-left {
+  width: 40%;
+}
+#header-right {
+  width: 60%;
+}
+#header-img {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 30%;
+  max-width: 100%;
+  height: auto;
+}
+.header-button {
+  background-color: palegreen;
+  text-align: center;
+  font-size: 12px;
+  color: deepskyblue;
+  padding: 6px;
+  margin: 8px;
+  border: 10px;
+  cursor: pointer;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  
+  text-align: left;
+}
